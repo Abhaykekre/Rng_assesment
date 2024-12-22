@@ -43,7 +43,7 @@ import com.example.rngassesment.R
 @Composable
 fun HomeScreen(navController: NavHostController, modifier: Modifier) {
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier.fillMaxSize().background(Color.White),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top
     ) {
